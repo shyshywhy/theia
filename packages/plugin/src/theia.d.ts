@@ -9717,6 +9717,8 @@ declare module '@theia/plugin' {
         constructor(callback: (resolvedDefinition: TaskDefinition) => Thenable<Pseudoterminal>);
 
         readonly callback;
+
+        readonly test2;
     }
 
     export enum TaskScope {
